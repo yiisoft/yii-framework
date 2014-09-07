@@ -66,6 +66,9 @@
             "yii\\": ""
         }
     },
+    "bin": [
+        "yii"
+    ],
     "replace": {
         "yiisoft/yii2": "self.version"
     }
