@@ -71,6 +71,11 @@
     "bin": [
         "yii"
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
     "replace": {
         "yiisoft/yii2": "self.version"
     }
