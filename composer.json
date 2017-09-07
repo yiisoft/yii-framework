@@ -80,7 +80,10 @@
     "autoload": {
         "psr-4": {
             "yii\\": ""
-        }
+        },
+        "classmap": [
+            "Yii.php"
+        ]
     },
     "bin": [
         "yii"
