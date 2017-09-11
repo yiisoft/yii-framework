@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2",
+    "name": "yiisoft/yii",
     "description": "Yii PHP Framework Version 2",
     "keywords": [
         "yii2",
@@ -70,13 +70,15 @@
         "yiisoft/yii2-composer": "~2.0.4",
         "ezyang/htmlpurifier": "~4.6",
         "cebe/markdown": "~1.0.0 | ~1.1.0",
-        "bower-asset/jquery": "3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable"
+        "bower-asset/jquery": "3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
         "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
         "bower-asset/punycode": "1.3.*",
         "bower-asset/yii2-pjax": "~2.0.1"
     },
     "autoload": {
-        "psr-4": {"yii\\": ""}
+        "psr-4": {
+            "yii\\": ""
+        }
     },
     "bin": [
         "yii"
@@ -85,5 +87,8 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
+    },
+    "replace": {
+        "yiisoft/yii2": "self.version"
     }
 }
